@@ -12,7 +12,7 @@ if st.button('Find age from this image'):
 
 	url = "https://aiceptionstefan-skliarovv1.p.rapidapi.com/createFaceAgeTask"
 
-	payload = { "imageUrl": f”{uploaded_file}” }
+	payload = { "imageUrl": f"{uploaded_file}"}
 
 	headers = {
 	"content-type": "application/x-www-form-urlencoded",
