@@ -7,7 +7,7 @@ import requests
 
 '''
 
-uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
+uploaded_file = st.text_input("Image URL",value="https://hips.hearstapps.com/hmg-prod/images/britney-spears-deletes-instagram-again-after-family-drama-1655461718.jpg?crop=0.750xw:0.542xh;0.128xw,0.0224xh&resize=1200:*")
 if st.button('Find age from this image'):
 
 	url = "https://aiceptionstefan-skliarovv1.p.rapidapi.com/createFaceAgeTask"
