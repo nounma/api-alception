@@ -21,6 +21,6 @@ if st.button('Find age from this image'):
 	}
 
 	response = requests.post(url, data=payload, headers=headers)
-
-	print(response.json())
+	response.text
+	
 
