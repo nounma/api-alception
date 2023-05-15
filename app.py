@@ -23,5 +23,4 @@ if st.button('Find age from this image'):
 	response = requests.post(url, data=payload, headers=headers)
 
 	print(response.json())
-	if uploaded_file is not None:
-		st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+
